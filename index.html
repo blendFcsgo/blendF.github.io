@@ -47,7 +47,7 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>blendF<span>.</span>CS:GO<span>.</span>cfg</h1>
+        <h1>blendF<span>.</span>CS<span>:</span>GO<span>.</span>cfg</h1>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
@@ -130,7 +130,7 @@
 
         <div class="section-header">
           <h2>My CS:GO Configuration</h2>
-          <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+          <p>All my CS:GO Settings!</p>
         </div>
 
         <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
@@ -148,75 +148,134 @@
               <p>Enhance Pointer Precision: Off</p>
               <p>Zoom Sensitivity: 1</p>
               <p>Raw Input: 1</p>
-
-
-
-              
-
-              
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>Video Settings</h3>
+              <p>Aspect Ratio: 4:3 (STRECHED)</p>
+              <p>Resolution: 1280x960</p>
+              <P>Brightness: 110% (2nd not default)</P>
+              <p>nVIDIA Digital Vibrance: MAX</p>
+              <p>nVIDIA performace/quality: MAX TO PERFORMANCE</p>
+              <p>Contrast/Gamma/Other Color Settings: Default</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>Audio Settings</h3>
+              <p>Volume: 1.0 (by console)</p>
+              <p>VOIP Positional: ON</p>
+              <P>Advanced 3D Audio Processing: ON</P>
+              <p>Music: ALL OFF.</p>
             </div>
           </div><!-- End Service Item -->
-
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>Miscallenaous</h3>
+              <p>Global shadow quality: High</p>
+              <p>Model / Texture detail: Low</p>
+              <p>Texture streaming: Disabled</p>
+              <p>Effect detail: Low</p>
+              <p>Shader detail: Low</p>
+              <p>Boost player contrast: Enabled</p>
+              <p>Multi-core rendering: Enabled</p>
+              <p>Multisampling anti-aliasing mode: 8X MSAA</p>
+              <p>FXAA anti-aliasing: Dsabled</p>
+              <p>Texture filtering mode: Bilinear</p>
+              <p>Wait for vertical sync: Disabled</p>
+              <p>Motion blur: Disabled</p>
+              <p>Triple-monitor mode: Disabled</p>
+              <p>Use uber shaders: Disabled</p>
+            
             </div>
           </div><!-- End Service Item -->
-
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>ViewModel</h3>
+             <p id="copy2">viewmodel_fov 68; viewmodel_offset_x 2.5; viewmodel_offset_y 0; viewmodel_offset_z -1.5; viewmodel_presetpos 3; cl_viewmodel_shift_left_amt 0.5; cl_viewmodel_shift_right_amt 0.25; viewmodel_recoil 1; cl_righthand 1;</p>  
+             <br>
+             <button class="btn btn-success" onclick="copyEvent('copy2')">Copy</button>
             </div>
           </div><!-- End Service Item -->
-
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>Bob</h3>
+                <p id="copy3">cl_bob_lower_amt 5; cl_bobamt_lat 0.1; cl_bobamt_vert 0.1; cl_bobcycle 0.98;</p>
+                <br>
+                <button class="btn btn-success" onclick="copyEvent('copy3')">Copy</button>
+                <script>
+                  function copyEvent(id)
+                  {
+                      var str = document.getElementById(id);
+                      window.getSelection().selectAllChildren(str);
+                      document.execCommand("Copy")
+                  }
+              </script>
               </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-            </div>
           </div><!-- End Service Item -->
-
+          
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>Crosshair</h3>
+             <p id="copy4">cl_crosshair_drawoutline 0; cl_crosshairalpha 255; cl_crosshaircolor 4; cl_crosshaircolor_b 0; cl_crosshaircolor_g 255; cl_crosshaircolor_r 255; cl_crosshairdot 1; cl_crosshairgap -3; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairthickness 0; cl_crosshair_sniper_width 1;</p>
+            <br>
+            <button class="btn btn-success" onclick="copyEvent('copy4')">Copy</button>
+            <script>
+              function copyEvent(id)
+              {
+                  var str = document.getElementById(id);
+                  window.getSelection().selectAllChildren(str);
+                  document.execCommand("Copy")
+              }
+          </script>
+            
             </div>
           </div><!-- End Service Item -->
-
-        </div>
-
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>Extra</h3>
+              <p>HudColor: Blue/darkblue</P>
+              <P>HudSize: Fairly Small</P>
+              <P>Show Teams: Top</P>
+              <P>Teams NUMBERS/PICTURES: pictures</P>
+              <P>RadarSize: Fairly Small</P>
+              <P>Net Graph: 3</P>
+              <P>Fps Max: 400</P>
+             <br>
+             
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item  position-relative">
+            <img src="csgofavicon.png" width="42px" alt="">
+              <h3>Launch Options</h3>
+             <p id="copy9">-novid -tickrate 128 cl_updaterate 128 -refresh 240 -console – high -cl_interp_ratio 2 +cl_forcepreload 1</p>
+             <br>
+             <button class="btn btn-success" onclick="copyEvent('copy9')">Copy</button>
+             <script>
+              function copyEvent(id)
+              {
+                  var str = document.getElementById(id);
+                  window.getSelection().selectAllChildren(str);
+                  document.execCommand("Copy")
+              }
+          </script>
+            </div>
+          </div><!-- End Service Item -->
+<br>
+<br>
+          <CENTER><a href="https://www.mediafire.com/file/708dx2qjvrrkogq/local.rar/file" target="_blank"><button class="btn btn-success">Download Full Config</button></a></CENTER>
       </div>
     </section><!-- End Our Services Section -->
-    
 
   </main><!-- End #main -->
 
@@ -227,47 +286,34 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>Impact</span>
+            <span>Blendi "blendF" Ferizi</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>A landing page that provides my CS:GO configuration, however if you want to know more about me regarding the mentioned skills, contact me on the media below!</p>
           <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/theBlendF" class="twitter" target="_blank"><i class="bi bi-twitter" ></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100072424956100" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/blendi-ferizi-bba3a4228/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>My Services</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="https://www.linkedin.com/in/blendi-ferizi-bba3a4228/">Unity Development</a></li>
+            <li><a href="https://www.linkedin.com/in/blendi-ferizi-bba3a4228/">Fullstack Web Development</a></li>
+            <li><a href="https://www.linkedin.com/in/blendi-ferizi-bba3a4228/">Research and Content Writing</a></li>
+            <li><a href="https://www.linkedin.com/in/blendi-ferizi-bba3a4228/">Academic Writing (English & Albanian)</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
+          <h4>Contact Me</h4>
           <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            Xhavit Hasani, 	13000 <br>
+            Drenas, Poklek i Ri, 7<br>
+            Kosovo <br><br>
+            <strong>Phone:</strong>  +38345728478<br>
+            <strong>Email:</strong>  fblendi6@gmail.com<br>
           </p>
 
         </div>
@@ -277,14 +323,11 @@
 
     <div class="container mt-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Blendi Ferizi</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+       
+        Designed by <a href="https://www.linkedin.com/in/blendi-ferizi-bba3a4228/" target="_blank"></a> Blendi Ferizi</a>
       </div>
     </div>
 
@@ -310,3 +353,6 @@
 </body>
 
 </html>
+
+
+
